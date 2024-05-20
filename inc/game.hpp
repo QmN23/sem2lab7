@@ -153,7 +153,7 @@ namespace mt
 				}
 				if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
 				{
-					m_ship.setVelocity(-0.08);
+					m_ship.setVelocity(-0.09);
 				}
 				if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
 				{
@@ -225,8 +225,6 @@ namespace mt
 					}
 				}
 
-
-				// Соударение с объектом
 				for (auto& bullet : m_ship.GetBullets())
 				{
 					for (int i = 0; i < m_n; i++)
